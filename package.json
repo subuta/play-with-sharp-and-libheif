@@ -4,7 +4,7 @@
   "description": "Image converter playground.",
   "main": "index.js",
   "scripts": {
-    "convert": "node -r esm example.js"
+    "start": "node -r esm example.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/subuta/play-with-sharp-and-libheif#readme",
   "dependencies": {
+    "canvas": "^2.4.1",
     "esm": "^3.2.22",
+    "loud-rejection": "^2.1.0",
     "sharp": "^0.22.0"
   }
 }

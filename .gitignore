@@ -1,2 +1,8 @@
+!/vendor/.keep
 /vendor
-/dist
+
+# Only includes original files.
+!/examples/example.heic
+!/examples/Landscape_2.jpg
+!/examples/Portrait_2.jpg
+/examples

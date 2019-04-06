@@ -11,6 +11,12 @@ Image converter playground.
 ```
 # Fetch libheif.js from Github, Because `libheif.js` not yet published to npm.
 wget https://raw.githubusercontent.com/strukturag/libheif/gh-pages/libheif.js -O ./vendor/libheif.js
+
+# Install other dependencies
+npm i
+
+# Run example
+npm start
 ```
 
 #### Credits
