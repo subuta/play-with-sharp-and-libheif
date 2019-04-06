@@ -3,8 +3,8 @@ Image converter playground.
 
 #### Included examples
 
-- Converts `.heic` (HEIF) file into `.jpg` (JPEG) via `libheif.js`
-- Fix rotated images via `sharp`
+- Converts `.heic` (HEIF) file into `.jpg` (JPEG) by `libheif.js` and `node-canvas`
+- Do fix rotated images and resize by `sharp`
 
 #### How to develop
 
@@ -23,4 +23,5 @@ npm start
 
 - `libheif.js` - [libheif](https://github.com/strukturag/libheif)
 - Example rotated JPEG image - [exif-orientation-examples](https://github.com/recurser/exif-orientation-examples)
-- `Image converter` - [sharp](https://github.com/lovell/sharp)
+- `Image resizer` - [sharp](https://github.com/lovell/sharp)
+- `Canvas implementation for Node.js` - [node-canvas](https://github.com/Automattic/node-canvas)
